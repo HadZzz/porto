@@ -544,6 +544,7 @@
   on:mouseenter={handleMouseEnter}
   on:mouseleave={handleMouseLeave}
   role="button"
+  tabindex="0"
 >
   <!-- Hero Section -->
   <section class="min-h-screen relative overflow-hidden bg-[#1a0f2e] pt-24">
