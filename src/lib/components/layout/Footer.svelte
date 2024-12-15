@@ -55,11 +55,11 @@
     <div class="grid md:grid-cols-3 gap-12">
       <!-- Logo & Description -->
       <div class="space-y-6">
-        <a href="javascript:void(0);" class="text-2xl font-bold">
+        <button class="text-2xl font-bold" aria-label="Logo">
           <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500">
             Hadzi
           </span>
-        </a>
+        </button>
         <p class="text-violet-200">
           Frontend Developer passionate about creating beautiful and functional web experiences.
         </p>
