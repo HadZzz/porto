@@ -543,6 +543,7 @@
   class="cursor-wrapper"
   on:mouseenter={handleMouseEnter}
   on:mouseleave={handleMouseLeave}
+  role="button"
 >
   <!-- Hero Section -->
   <section class="min-h-screen relative overflow-hidden bg-[#1a0f2e] pt-24">
