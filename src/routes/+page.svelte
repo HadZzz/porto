@@ -1281,30 +1281,30 @@
   }
 
   /* Optimize card transitions */
-  .card-hover {
+  /* .card-hover {
     transition: border-color 300ms ease;
-  }
+  } */
 
   /* Optimize image transitions */
-  .image-hover {
+  /* .image-hover {
     transition: transform 700ms ease;
-  }
+  } */
 
   /* Use more efficient transform */
-  .scale-on-hover:hover {
+  /* .scale-on-hover:hover {
     transform: scale(1.05);
     will-change: transform;
-  }
+  } */
 
   /* Remove transition-all */
-  .btn-hover {
+  /* .btn-hover {
     transition: background-color 300ms ease,
                 color 300ms ease,
                 border-color 300ms ease;
-  }
+  } */
 
   /* Optimize text animations */
-  .text-hover {
+  /* .text-hover {
     transition: color 300ms ease;
-  }
+  } */
 </style>
