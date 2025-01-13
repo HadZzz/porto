@@ -49,13 +49,13 @@ banner
     align-items: center;
 
     &.trm-overlay {
-      background-color: rgba(10,15,20,.2);
+      background-color: rgba(10, 15, 20, 0.2);
     }
 
     & .trm-banner-text {
       & * {
         color: $title;
-        text-shadow: 0 1px 10px rgba(0,0,0,.3);
+        text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
       }
 
       & .trm-breadcrumbs {
@@ -75,7 +75,7 @@ banner
           position: relative;
 
           &:after {
-            content: '/';
+            content: "/";
             position: absolute;
             top: 0;
             right: 8px;
@@ -139,7 +139,7 @@ banner
         border-radius: 15px;
 
         &:after {
-          content: '';
+          content: "";
           height: 4px;
           width: 4px;
           border-radius: 50%;
@@ -216,7 +216,7 @@ main card
     }
 
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       left: 30px;
       top: -8px;
@@ -303,7 +303,7 @@ main card
       z-index: 9;
       bottom: 5px;
       right: 5px;
-      content: '';
+      content: "";
       height: 24px;
       width: 24px;
       border-radius: 50%;
@@ -324,7 +324,7 @@ main card
         letter-spacing: 1px;
         font-weight: 600;
         font-size: 8px;
-        content: 'Available for hire';
+        content: "Available for hire";
         height: 24px;
         padding-top: 3px;
         width: 130px;
@@ -375,7 +375,7 @@ counters
   margin-bottom: 40px;
 
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 30px;
     top: -8px;
@@ -431,7 +431,7 @@ video
     height: 100%;
 
     &.trm-overlay {
-      background-color: rgba(10,15,20,.2);
+      background-color: rgba(10, 15, 20, 0.2);
     }
   }
 
@@ -482,7 +482,7 @@ video
 @keyframes puls {
   0% {
     opacity: 1;
-    transform: scale(.9);
+    transform: scale(0.9);
   }
 
   100% {
@@ -545,7 +545,7 @@ skills
     & .trm-progressbar {
       width: 0;
       height: 100%;
-      background-color: $accent;
+      background-color: #2ecc71;
       transition: 0.8s ease-in-out;
       transition-delay: 0.4s;
     }
@@ -751,7 +751,7 @@ price
 
   &.trm-popular {
     &:after {
-      content: 'popular';
+      content: "popular";
       color: $title;
       text-transform: uppercase;
       font-size: 10px;
@@ -883,7 +883,7 @@ timeline
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 20px;
     right: 0;
@@ -939,7 +939,7 @@ timeline
       width: 10px;
       background-color: $bg;
       transform: rotate(-135deg);
-      content: '';
+      content: "";
       position: absolute;
       top: 23px;
       right: -5px;
@@ -1046,7 +1046,7 @@ blog
   box-shadow: 0 2px 4px -2px $shadow;
 
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 30px;
     top: -8px;
@@ -1132,7 +1132,7 @@ blog
     opacity: 0.6;
 
     &:after {
-      content: '•';
+      content: "•";
       position: absolute;
       top: 0;
       right: 6px;
@@ -1233,7 +1233,7 @@ blog
         opacity: 0.6;
 
         &:after {
-          content: '•';
+          content: "•";
           position: absolute;
           top: 0;
           right: 6px;
